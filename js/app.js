@@ -1,2 +1,2 @@
-use 'strict'
-console
+
+console.log("Hello World")
