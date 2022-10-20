@@ -45,4 +45,16 @@ footer{
 text-align: center;
 background-color: rgb(224,206,209);
 }
-
+#hero {
+    width: 960px;
+    height: 200px;
+    border: 8px solid rebeccapurple;
+}
+.class test {
+background-color: coral;
+}
+.lowerPics{
+    display: inline-block;
+    max-width: 30%;
+    margin: 15px;
+}
