@@ -18,7 +18,10 @@ var UserNamer;
 //lets prompt a user for their name when they come to our site.
 //method
 let userName = prompt('What is your name?');
+let nameConfirm = confirm('Is the really your name?');
+
 console.log('What is our input for user name: ', userName);
+console.log('Did they confirm? ', nameConfirm);
 let time = prompt('What hour is it in 
                   Military time?');
 console.log('User time is: ', time);
