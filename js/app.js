@@ -1,5 +1,5 @@
 'use strict';
-console.log("Hello World")
+console.log('Hello World');
 // 3 ways to comment
 /*** this is a multipline 
 */
@@ -36,7 +36,7 @@ else if (time > 18 && time < 24){
  message = 'Good Evening';
 }
 else {
- message = 'Hello, I dont know your time.');
+ message = 'Hello, I dont know your time.';
 }
 console.log('our message from if else condition is: ', message);
 document.write('Hello ' + userName + '! ' + message);
