@@ -1,5 +1,7 @@
 'use strict';
 console.log('Hello World');
+// declare variable and not assign a value, global space we can access 
+//this variable anywhere in js
 // 3 ways to comment
 /*** this is a multipline 
 */
@@ -9,6 +11,7 @@ console.log('Hello World');
  */
 
 // another way to add comment in js is with the double foward
+
 
 
 // variables are a way to hold input or other data
@@ -26,17 +29,17 @@ let time = prompt('What hour is it in Military time?');
 console.log('User time is: ', time);
 let message;
 if(time <= 11){
- message = 'Top O\' da Mornin\' to ya!';
+ message = 'Top O\' da Mornin\' to ya! Time to feed your kitty!';
 }
 else if (time > 12 && time <= 17){
- message = 'G\'Day Mate';
+ message = 'G\'Day Mate! Time to change the litter box.';
 }
 else if (time > 18 && time < 24){
- message = 'Nighty Night!';
+ message = 'Nighty Night Time to give your kitten some snuggies!';
 }
 else {
- message = 'Hello, I dont know your time.';
+ message = 'Hello, I dont know your time, but it\'s always a good time to give your cat some love.';
 }
 console.log('our message from if else condition is: ', message);
-document.write('Hello ' + userName + '! ' + message);
+document.write('Hello ' + userName +'\'s' + ' owner' + '! ' + message);
 
