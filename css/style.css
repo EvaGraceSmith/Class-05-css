@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(24,56,78);
+    background-color: rgb(187, 211, 226);
     font-family: Arial, Helvetica, sans-serifs;
 }
 header{
-    background-color: rgb(241,81,238);
+    background-color: rgb(196, 241, 81);
     height: 200px;
 }
 h1{
@@ -15,7 +15,7 @@ h1{
     text-shadow: 1px,1px,1px rgb(24,56,78);
 }
 ul{
-    background-color: aquamarine;
+    background-color: rgb(60, 221, 167);
 }
 nav li{
     display: inline-block;
